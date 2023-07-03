@@ -1,3 +1,8 @@
+package jp.te4a.spring.boot.myapp6;
+
+import lombok.Data;
+import lombok.AllArgsConstructor;
+
 @Data
 @AllArgsConstructor
 public class BookBean {

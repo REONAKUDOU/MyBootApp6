@@ -1,3 +1,11 @@
+package jp.te4a.spring.boot.myapp6;
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.concurrent.ConcurrentMap;
+import java.util.concurrent.ConcurrentHashMap;
+import org.springframework.stereotype.Repository;
+
 @Repository
 public class BookRepository {
 	
@@ -5,7 +13,7 @@ public class BookRepository {
 									= new ConcurrentHashMap<>();
 	
 	public BookBean save(BookBean bookBean) {
-		return bookMap.put(bookBean.getId(), bookBean);
+		return bookMap.put(bookBean.getId()	, bookBean);
 	}
 	
 	public void delete(Integer bookId) {

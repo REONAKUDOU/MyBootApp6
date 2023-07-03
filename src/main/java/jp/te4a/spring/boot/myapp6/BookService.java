@@ -1,3 +1,11 @@
+package jp.te4a.spring.boot.myapp6;
+
+import java.util.List;
+import org.springframework.stereotype.Service;
+import org.springframework.beans.factory.annotation.Autowired;
+
+
+
 @Service
 public class BookService {
 	
